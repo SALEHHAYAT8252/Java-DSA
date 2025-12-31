@@ -16,7 +16,7 @@ public class SubArraySumPrefixMethod {
             }
          }
 
-         System.out.println("Max array sum : "+maxSum);
+         System.out.println("Max subArray sum : "+maxSum);
     }
     public static void main(String[] args) {
         int[] number={2,4,6,8,10};
