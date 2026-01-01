@@ -1,7 +1,6 @@
 public class Uppercase {
     public static String eachWordtoUpperCase(String str){
         StringBuilder newSb = new StringBuilder("");
-        char ch = Character.toUpperCase(str.charAt(0));
         newSb.append(Character.toUpperCase(str.charAt(0)));
        for(int i=1;i<str.length();i++){
         if(str.charAt(i)==' '&&i<str.length()-1){
